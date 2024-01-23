@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+healthcare-tests - TS_RegressionTest,Firefox 121.0,,,2024-01-23 12:56:52,2024-01-23 12:58:19,1m - 26.632s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Firefox 121.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2024-01-23 12:56:52,2024-01-23 12:58:19,1m - 26.227s,FAILED
+"comment(""Story: Login to CURA system"")",Firefox 121.0,,,2024-01-23 12:56:53,2024-01-23 12:56:53,0.119s,PASSED
+"comment(""Given that the user has the valid login information"")",Firefox 121.0,,,2024-01-23 12:56:53,2024-01-23 12:56:53,0.014s,PASSED
+openBrowser(G_SiteURL),Firefox 121.0,,,2024-01-23 12:56:53,2024-01-23 12:57:16,22.937s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Firefox 121.0,,,2024-01-23 12:57:16,2024-01-23 12:57:57,41.043s,PASSED
+"setText(findTestObject(""Page_Login/txt_UserName""), Username)",Firefox 121.0,,,2024-01-23 12:57:57,2024-01-23 12:57:58,0.762s,PASSED
+"setText(findTestObject(""Page_Login/txt_Password""), Password)",Firefox 121.0,,,2024-01-23 12:57:58,2024-01-23 12:57:59,0.946s,PASSED
+"comment(""When he logins to CURA system"")",Firefox 121.0,,,2024-01-23 12:57:59,2024-01-23 12:57:59,0.000s,PASSED
+"click(findTestObject(""Page_Login/btn_Login""))",Firefox 121.0,,,2024-01-23 12:57:59,2024-01-23 12:58:05,5.675s,PASSED
+"comment(""Then he should be able to login successfully"")",Firefox 121.0,,,2024-01-23 12:58:05,2024-01-23 12:58:05,0.014s,PASSED
+"landingPage = verifyElementPresent(findTestObject(""Page_CuraAppointment/div_Appointment""), G_Timeout)",Firefox 121.0,,,2024-01-23 12:58:05,2024-01-23 12:58:16,11.784s,FAILED
+Video,Firefox 121.0,,,2024-01-23 12:58:19,2024-01-23 12:58:19,0.015s,PASSED

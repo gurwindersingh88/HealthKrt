@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+healthcare-tests - TS_RegressionTest,Firefox 121.0,,,2024-01-23 13:12:53,2024-01-23 13:13:57,1m - 4.739s,FAILED
+,,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Firefox 121.0,"Verify if users can login successful. 
+
+Steps:
+- Click on 'Book Appointment' button to login
+- Input username and password
+- Click on 'Login' button
+
+Expected result:
+'Appointment' section is displayed after successful login",,2024-01-23 13:12:53,2024-01-23 13:13:57,1m - 4.360s,FAILED
+"comment(""Story: Login to CURA system"")",Firefox 121.0,,,2024-01-23 13:12:54,2024-01-23 13:12:54,0.111s,PASSED
+"comment(""Given that the user has the valid login information"")",Firefox 121.0,,,2024-01-23 13:12:54,2024-01-23 13:12:54,0.011s,PASSED
+openBrowser(G_SiteURL),Firefox 121.0,,,2024-01-23 13:12:54,2024-01-23 13:13:54,1m - 0.546s,PASSED
+"click(findTestObject(""Page_CuraHomepage/btn_MakeAppointment""))",Firefox 121.0,,,2024-01-23 13:13:54,2024-01-23 13:13:55,0.855s,FAILED
+Video,Firefox 121.0,,,2024-01-23 13:13:57,2024-01-23 13:13:57,0.000s,PASSED

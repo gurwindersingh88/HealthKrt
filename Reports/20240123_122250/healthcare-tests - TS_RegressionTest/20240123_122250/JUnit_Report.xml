@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="healthcare-tests - TS_RegressionTest" time="24.129" tests="1" failures="0" errors="0">
+   <testsuite name="healthcare-tests - TS_RegressionTest" tests="1" failures="0" errors="0" time="24.129" skipped="0" timestamp="2024-01-23 12:22:58" hostname="Gurwinder - TXCHD-LAP-284" id="Test Suites/healthcare-tests - TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gurwinder\\Katalon Studio\\Healthcart\\Reports\\20240123_122250\\healthcare-tests - TS_RegressionTest\\20240123_122250"/>
+         <property name="logFiles" value="C:\\Users\\Gurwinder\\Katalon Studio\\Healthcart\\Reports\\20240123_122250\\healthcare-tests - TS_RegressionTest\\20240123_122250\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gurwinder - TXCHD-LAP-284"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 121.0"/>
+         <property name="hostAddress" value="192.168.14.86"/>
+         <property name="sessionId" value="3cbf15cd-6ce1-40fb-a11b-200a7b7d4cf0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" time="23.826" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="PASSED">
+         <system-out><![CDATA[2024-01-23 12:22:59 - [TEST_CASE][PASSED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login
+
+2024-01-23 12:22:59 - [TEST_STEP][PASSED] - comment("Story: Login to CURA system"): Story: Login to CURA system
+
+2024-01-23 12:22:59 - [MESSAGE][INFO] - Story: Login to CURA system
+
+2024-01-23 12:22:59 - [TEST_STEP][PASSED] - comment("Given that the user has the valid login information"): Given that the user has the valid login information
+
+2024-01-23 12:22:59 - [MESSAGE][INFO] - Given that the user has the valid login information
+
+2024-01-23 12:22:59 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2024-01-23 12:23:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-01-23 12:23:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-01-23 12:23:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2024-01-23 12:23:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_CuraHomepage/btn_MakeAppointment")): Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2024-01-23 12:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CuraHomepage/btn_MakeAppointment' is clicked on
+
+2024-01-23 12:23:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_UserName"), Username): Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2024-01-23 12:23:16 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_Login/txt_UserName'
+
+2024-01-23 12:23:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2024-01-23 12:23:17 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Page_Login/txt_Password'
+
+2024-01-23 12:23:17 - [TEST_STEP][PASSED] - comment("When he logins to CURA system"): When he logins to CURA system
+
+2024-01-23 12:23:17 - [MESSAGE][INFO] - When he logins to CURA system
+
+2024-01-23 12:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Login/btn_Login")): Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2024-01-23 12:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login/btn_Login' is clicked on
+
+2024-01-23 12:23:18 - [TEST_STEP][PASSED] - comment("Then he should be able to login successfully"): Then he should be able to login successfully
+
+2024-01-23 12:23:18 - [MESSAGE][INFO] - Then he should be able to login successfully
+
+2024-01-23 12:23:18 - [TEST_STEP][PASSED] - landingPage = verifyElementPresent(findTestObject("Page_CuraAppointment/div_Appointment"), G_Timeout): Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2024-01-23 12:23:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CuraAppointment/div_Appointment' is present
+
+2024-01-23 12:23:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-01-23 12:23:20 - [MESSAGE][PASSED] - Browser is closed
+
+2024-01-23 12:23:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .
+
+2024-01-23 12:23:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/Main Test Cases/TC1_Verify Successful Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-01-23 12:22:58 - [TEST_SUITE][PASSED] - healthcare-tests - TS_RegressionTest: Test Cases/Main Test Cases/TC1_Verify Successful Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
